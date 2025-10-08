@@ -1,5 +1,8 @@
 # Nginx Proxy Manager (NPM) + Crowdsec + Authentik
 
+> [!WARNING]
+> The NPM fork used by this repository is currently (indefinitely) **unmaintained** - as is this project.
+> While I can confirm it still works, **I'd advise against using it** - *until I have time to update it*.
 Are you looking to **protect your services** using *only* simple and easily manageable solutions?
 This repo (*hopefully*) does exactly that. **[NPM](https://nginxproxymanager.com/guide/)** is an easy-to-use reverse proxy built on Nginx, managed via a GUI. In this case we will be securing it with **[Crowdsec](https://docs.crowdsec.net/)** - to automatically ban malicious IPs, and **[Authentik](https://docs.goauthentik.io/docs/)** - a feature rich self-hosted Auth solution.
 

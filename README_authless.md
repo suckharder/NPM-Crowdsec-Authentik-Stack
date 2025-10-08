@@ -1,7 +1,8 @@
 # Nginx Proxy Manager (NPM) + Crowdsec -(minus) Authentik
 
-*As requested by u/Waddoo123*
-
+> [!WARNING]
+> The NPM fork used by this repository is currently (indefinitely) **unmaintained** - as is this project.
+> While I can confirm it still works, **I'd advise against using it** - *until I have time to update it*.
 This guide is an alteration of the [main guide](https://github.com/suckharder/NPM-Crowdsec-Authentik-Stack/blob/main/README.md) - it aims the remove the Authentik component from the stack, keeping only NPM and Crowdsec.
 
 > **At this time - I mostly just removed a lot of the steps, and this currently stands untested - however, just omitting Authentik is very straightforward so it should work fine.**
